@@ -11,16 +11,13 @@ body {
 }
 
 /* Utils */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .alignment {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 /* Header */
 .header {
@@ -48,10 +45,109 @@ body {
     justify-content: center;
 }
 
-
-
 .h-box3 {
     width: 25%;
     height: 50px;
     justify-content: flex-end;
+}
+
+
+
+/* Main */
+.back-ground {
+    min-height: 300px;
+    width: 100%;
+}
+
+.first-container {
+    background-color: grey;
+}
+
+.second-container {
+    background-color: white;
+}
+
+.third-container {
+    flex-direction: row-reverse;
+    background-color: grey;
+}
+
+.first-div {
+    height: 200px;
+    width: 50%;
+    background-color: green;
+    border: solid;
+}
+
+.second-div {
+    height: 200px;
+    width: 40%;
+    background-color: green;
+    border: solid;
+}
+
+.double-div {
+    height: 200px;
+    width: 20%;
+    background-color: chartreuse;
+    border: solid;
+}
+
+.fifth-div {
+    height: 600px;
+    width: 60%;
+    background-color: chartreuse;
+    border: solid;
+    margin: 50px;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: darkblue;
+}
+
+.div-container {
+    height: 350px;
+    width: 60%;
+    background-color: chartreuse;
+    border: solid;
+    margin: 50px;
+}
+
+.large-column {
+    height: 100%;
+    width: calc((100% / 5) *2);
+    border: solid;
+
+}
+
+.small-column {
+    height: 100%;
+    width: calc(100% / 5);
+    border: solid;
+}
+
+#border {
+    height: 2px;
+    background-color: white;
+}
+
+/* End Page */
+.endpage-container {
+    height: 100px;
+    background-color: darkblue;
+}
+
+.endpage-div {
+    height: 60px;
+    width: 60%;
+    background-color: chartreuse;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.endpage-container p {
+    padding: 0px 5px;
+    border: solid;
 }
