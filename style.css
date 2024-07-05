@@ -1,0 +1,57 @@
+/*  Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: sans-serif;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    min-height: 100px;
+    background-color: aqua;
+}
+
+.box-container {
+    width: 70%;
+    height: 50px;
+    background-color: yellow;
+    border: solid;
+}
+
+.h-box1 {
+    width: 25%;
+    height: 50px;
+    justify-content: flex-start;
+}
+
+.h-box2 {
+    width: 50%;
+    height: 50px;
+    border: solid;
+    justify-content: center;
+}
+
+
+
+.h-box3 {
+    width: 25%;
+    height: 50px;
+    justify-content: flex-end;
+}
